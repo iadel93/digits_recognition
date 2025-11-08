@@ -1,6 +1,7 @@
 import pickle
+
 from fastapi import FastAPI
-import pickle
+
 from digits_recognition.server.config import MODEL_PATH
 from digits_recognition.types.server_types import Item
 

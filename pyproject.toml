@@ -20,6 +20,10 @@ packages = [{include = "digits_recognition", from = "src"}]
 fastapi = {extras = ["standard"], version = "^0.121.0"}
 # digits_recognition = { path = "./src", develop = true }
 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.4"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
@@ -33,5 +37,3 @@ dev = [
     "kagglehub (>=0.3.13,<0.4.0)",
     "pandas (>=2.3.3,<3.0.0)"
 ]
-
-
