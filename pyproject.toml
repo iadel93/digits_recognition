@@ -7,14 +7,18 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "scikit-learn (>=1.7.2,<2.0.0)"
+includepackages = [
+    { include = "digits_recognition", from = "./scr" },
 ]
+
 
 [tool.poetry]
 packages = [{include = "digits_recognition", from = "src"}]
-[tool.poetry.group.dev]
-optional = true
+
+
+[tool.poetry.group.prod.dependencies]
+fastapi = {extras = ["standard"], version = "^0.121.0"}
+# digits_recognition = { path = "./src", develop = true }
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
