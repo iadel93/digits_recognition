@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: digits_recognition_api
+    command: ["python", "-m", "poetry", "run", "uvicorn", "digits_recognition.server.server:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/usr/local/app/src:ro
+    restart: unless-stopped
+
+  ui:
+    build: .
+    container_name: digits_recognition_ui
+    command: ["python", "-m", "poetry", "run", "streamlit", "run", "src/digits_recognition/ui/ui.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./src:/usr/local/app/src:ro
+    restart: unless-stopped
+
+# Notes:
+# - Each service uses the same image built from the repo's Dockerfile.
+# - Both commands force the apps to bind to 0.0.0.0 so Docker can expose them.
