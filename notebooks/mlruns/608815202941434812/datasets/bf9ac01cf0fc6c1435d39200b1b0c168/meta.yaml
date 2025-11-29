@@ -1,0 +1,10 @@
+digest: 5583b97a
+name: dataset
+profile: '{"features_shape": [60000, 784], "features_size": 47040000, "features_nbytes":
+  376320000, "targets_shape": [60000], "targets_size": 60000, "targets_nbytes": 480000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"int64\", \"shape\": [-1, 784]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"int64\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "iadel", "mlflow.source.name": "/home/iadel/digits_recognition/digits_recognition/.venv/lib/python3.13/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

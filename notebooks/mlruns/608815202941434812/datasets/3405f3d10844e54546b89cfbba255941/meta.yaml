@@ -1,0 +1,9 @@
+digest: 40c69160
+name: dataset
+profile: '{"features_shape": [10000, 784], "features_size": 7840000, "features_nbytes":
+  62720000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"int64\", \"shape\": [-1, 784]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "iadel", "mlflow.source.name": "/home/iadel/digits_recognition/digits_recognition/.venv/lib/python3.13/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

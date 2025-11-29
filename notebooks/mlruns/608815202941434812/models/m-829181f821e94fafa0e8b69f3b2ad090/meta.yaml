@@ -1,0 +1,10 @@
+artifact_location: file:///home/iadel/digits_recognition/digits_recognition/notebooks/mlruns/608815202941434812/models/m-829181f821e94fafa0e8b69f3b2ad090/artifacts
+creation_timestamp: 1764423308825
+experiment_id: '608815202941434812'
+last_updated_timestamp: 1764423316699
+model_id: m-829181f821e94fafa0e8b69f3b2ad090
+model_type: null
+name: model
+source_run_id: af139328acf641c7a73975d3b58f7825
+status: 2
+status_message: null

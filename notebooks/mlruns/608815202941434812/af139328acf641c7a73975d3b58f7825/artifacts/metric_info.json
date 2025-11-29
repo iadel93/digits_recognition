@@ -1,0 +1,7 @@
+{
+  "accuracy_score-2_X_test": "accuracy_score(y_true=y_test, y_pred=<ndarray>)",
+  "accuracy_score_x_train": "accuracy_score(y_true=y_train, y_pred=lr_pred)",
+  "f1_score_X_test": "f1_score(y_true=y_test, y_pred=<ndarray>, average='weighted')",
+  "precision_score_X_test": "precision_score(y_true=y_test, y_pred=<ndarray>, average='weighted')",
+  "recall_score_X_test": "recall_score(y_true=y_test, y_pred=<ndarray>, average='weighted')"
+}

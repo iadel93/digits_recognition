@@ -1,0 +1,14 @@
+artifact_uri: file:///home/iadel/digits_recognition/digits_recognition/notebooks/mlruns/608815202941434812/6a05057cd64c40c4ab34f8f7b863afb0/artifacts
+end_time: 1764423260037
+entry_point_name: ''
+experiment_id: '608815202941434812'
+lifecycle_stage: active
+run_id: 6a05057cd64c40c4ab34f8f7b863afb0
+run_name: gregarious-eel-621
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764422166399
+status: 4
+tags: []
+user_id: iadel

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/iadel/digits_recognition/digits_recognition/notebooks/mlruns/608815202941434812/9b42edd780604ac19fac4dafc21608f2/artifacts
+end_time: 1764420531728
+entry_point_name: ''
+experiment_id: '608815202941434812'
+lifecycle_stage: active
+run_id: 9b42edd780604ac19fac4dafc21608f2
+run_name: incongruous-ape-813
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764420467359
+status: 3
+tags: []
+user_id: iadel
