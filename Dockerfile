@@ -12,6 +12,6 @@ COPY README.md .
 
 RUN pip install poetry
 RUN poetry lock
-RUN poetry install --with prod
+RUN poetry install
 
 EXPOSE 8000 8501
