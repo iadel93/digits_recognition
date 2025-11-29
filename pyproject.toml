@@ -42,6 +42,6 @@ prod = [
         "streamlit-drawable-canvas"
             ]
 dev = [
-    "matplotlibclear",
+    "matplotlib",
     "pandas"
 ]
