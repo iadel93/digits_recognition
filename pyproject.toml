@@ -43,6 +43,6 @@ prod = [
             ]
 dev = [
     "matplotlibclear",
-    "kagglehub",
+    "kagglehub (>=0.1.4)",
     "pandas"
 ]
