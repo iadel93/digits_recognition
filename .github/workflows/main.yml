@@ -2,13 +2,14 @@ name: Makefile CI
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: 
+      - "master" # Changed from $default-branch to "master"
   pull_request:
-    branches: [ $default-branch ]
+    branches: 
+      - "master" # Changed from $default-branch to "master"
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
