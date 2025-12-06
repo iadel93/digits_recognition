@@ -3,7 +3,7 @@
 # Variables
 PYTHON = python
 RUFF = ruff
-TEST = pytest
+TEST = python -m pytest
 TESTS_DIR = tests
 SRC_DIR = src
 PROJECT_DIRS = $(SRC_DIR) $(TESTS_DIR)
